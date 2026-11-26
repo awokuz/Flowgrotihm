@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="uyga vazifa"/>
+        <attribute name="authors" value="1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-11-25 11:03:19 "/>
+        <attribute name="created" value="MTtERVNLVE9QLVVBTFFPTU47MjAyNi0xMS0yNTsiMTA6NTU6MzggIjsyMzY5"/>
+        <attribute name="edited" value="MTtERVNLVE9QLVVBTFFPTU47MjAyNi0xMS0yNTsiMTE6MDM6MTkgIjsxOzI0NzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vaqt" type="Integer" array="False" size=""/>
+            <declare name="sahifa" type="Integer" array="False" size=""/>
+            <output expression="&quot;kitob o'qilgan vaqt&quot;" newline="True"/>
+            <input variable="vaqt"/>
+            <output expression="&quot;o'qilgan sahifa&quot;" newline="True"/>
+            <input variable="sahifa"/>
+            <if expression="vaqt &gt;=50 and sahifa &gt;=7">
+                <then>
+                    <output expression="&quot;tabriklayman yetarli&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;afsuski kam&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

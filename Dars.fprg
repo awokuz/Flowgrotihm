@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Dars"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-11-26 02:34:35 AM"/>
+        <attribute name="created" value="dXNlcjtERVNLVE9QLUNVRFVVOEw7MjAyNi0xMS0yNjswMjoyOTo1NyBBTTsyODI2"/>
+        <attribute name="edited" value="dXNlcjtERVNLVE9QLUNVRFVVOEw7MjAyNi0xMS0yNjswMjozNDozNSBBTTsxOzI5MjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Ism" type="String" array="False" size=""/>
+            <declare name="Yosh" type="Integer" array="False" size=""/>
+            <declare name="Boy" type="Real" array="False" size=""/>
+            <declare name="Ball" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ismingiz?&quot;" newline="True"/>
+            <input variable="Ism"/>
+            <output expression="&quot;Yoshingiz&quot;" newline="True"/>
+            <input variable="Yosh"/>
+            <output expression="&quot;Boyingiz&quot;" newline="True"/>
+            <input variable="Boy"/>
+            <output expression="&quot;Balingiz&quot;" newline="True"/>
+            <input variable="Ball"/>
+            <if expression="Ball &gt;= 80">
+                <then>
+                    <output expression="&quot;You are crash&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;You are trash&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
